@@ -1,0 +1,6 @@
+<div (click)="onClick()" >
+    {{title}}
+</div>
+<ng-content *ngIf="isClicked" select=".body">
+    <div >This is Hidden</div>
+</ng-content>
